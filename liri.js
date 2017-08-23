@@ -46,18 +46,21 @@ function movieThis() {
 
         var info = JSON.parse(body);
         // console.log(info);
-        console.log('*********************')
-        console.log('*********************')
+        console.log('*********************');
+        console.log('*********************');
         console.log('Movie: ' + info.Title);
-        console.log('*********************')
+        console.log('*********************');
         console.log('Year: ' + info.Year);
         console.log('Rated: ' + info.Rated);
         console.log('Language: ' + info.Language);
         console.log('Country: ' + info.Country);
+        console.log("--------------");
         console.log('DESCRIPTION:');
         console.log(info.Plot);
-        console.log('*********************')
-        console.log('*********************')
+        console.log("--------------");
+        console.log("Actors: " + info.Actors);
+        console.log('*********************');
+        console.log('*********************');
     });
 };
 
